@@ -1,6 +1,6 @@
 package aps;
 
-public class ArrayDinamico { //classe principal array dinamico
+public class VetorDinamico { //classe principal Vetor dinamico
 	
 	private int [] data= new int [5];
 	private int contador = 5;
@@ -14,7 +14,7 @@ public class ArrayDinamico { //classe principal array dinamico
 			
 	 }
 	
-	public void insereFinal(int valor) { //inseriu no final e criou mais uma posição no array
+	public void insereFinal(int valor) { //inseriu no final e criou mais uma posiÃ§Ã£o no array
 		VerificaCheio();
 		data[contador]=valor;
 		contador = contador +1;
@@ -28,7 +28,7 @@ public class ArrayDinamico { //classe principal array dinamico
 	}
 
 	
-	public void insere (int index, int value ) { //insere posição especifica
+	public void insere (int index, int value ) { //insere posiÃ§Ã£o especifica
 	    if ( isIndexValid (index )) {
 	    	VerificaCheio();
 	        moveElementsForward (index);
