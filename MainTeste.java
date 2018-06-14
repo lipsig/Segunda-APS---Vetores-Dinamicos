@@ -5,7 +5,7 @@ public class MainTeste {
 	//Classe teste
 	
 	public static void main(String[] args) {
-		ArrayDinamico a1= new ArrayDinamico();
+		VetorDinamico a1= new VetorDinamico();
 		
 		/*a1.addFinal(12);
 		System.out.print(a1.size());
